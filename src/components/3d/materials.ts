@@ -8,17 +8,17 @@ import * as THREE from 'three'
 export const M = {
   // 机柜 / chassis 类
   chassis: new THREE.MeshStandardMaterial({
-    color: '#5a6478',
+    color: '#7c8699',
     metalness: 0.78,
     roughness: 0.4,
   }),
   chassisDark: new THREE.MeshStandardMaterial({
-    color: '#363d4d',
+    color: '#4d566c',
     metalness: 0.55,
     roughness: 0.5,
   }),
   trayMetal: new THREE.MeshStandardMaterial({
-    color: '#6b7588',
+    color: '#8590a5',
     metalness: 0.88,
     roughness: 0.28,
   }),

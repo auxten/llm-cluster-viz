@@ -2,10 +2,10 @@
 @import 'katex/dist/katex.min.css';
 
 @theme {
-  --color-bg: #1a2030;
-  --color-bg-soft: #232a3c;
-  --color-panel: rgba(36, 44, 60, 0.92);
-  --color-panel-hi: rgba(48, 58, 78, 0.96);
+  --color-bg: #2a3349;
+  --color-bg-soft: #333d54;
+  --color-panel: rgba(40, 50, 70, 0.92);
+  --color-panel-hi: rgba(56, 68, 90, 0.96);
   --color-stroke: rgba(255, 255, 255, 0.18);
   --color-stroke-hi: rgba(255, 255, 255, 0.32);
   --color-fg: #f5f7fb;
@@ -99,8 +99,8 @@ body {
   white-space: nowrap;
   padding: 2px 7px;
   border-radius: 5px;
-  background: rgba(20, 26, 40, 0.78);
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(28, 36, 54, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);

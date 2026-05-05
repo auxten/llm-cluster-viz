@@ -59,8 +59,8 @@ export function SceneRoot() {
       frameloop={caps.prefersReducedMotion ? 'demand' : 'always'}
       style={{ position: 'absolute', inset: 0 }}
     >
-      <color attach="background" args={['#1a2030']} />
-      <fog attach="fog" args={['#1a2030', 36, 110]} />
+      <color attach="background" args={['#2a3349']} />
+      <fog attach="fog" args={['#2a3349', 36, 110]} />
       <Suspense fallback={null}>
         <Lighting />
         {layer === 'datacenter' ? <DatacenterScene /> : null}

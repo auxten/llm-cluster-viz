@@ -9,7 +9,7 @@ interface FloorProps {
 
 export function Floor({ size = 60, divisions = 60 }: FloorProps) {
   const grid = useMemo(
-    () => new THREE.GridHelper(size, divisions, '#5a6b85', '#2f394d'),
+    () => new THREE.GridHelper(size, divisions, '#7a8aa6', '#3f4a64'),
     [size, divisions],
   )
 
@@ -18,8 +18,8 @@ export function Floor({ size = 60, divisions = 60 }: FloorProps) {
       <mesh receiveShadow rotation={[-Math.PI / 2, 0, 0]}>
         <planeGeometry args={[size, size]} />
         <meshStandardMaterial
-          color="#222a3c"
-          metalness={0.25}
+          color="#323c54"
+          metalness={0.22}
           roughness={0.78}
         />
       </mesh>
