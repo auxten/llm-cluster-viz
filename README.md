@@ -14,7 +14,7 @@ An open-source, interactive visualization that uses three zoom levels — **data
 </p>
 <p align="center">
   <img src="images/inference.png" alt="Inference lifecycle" width="48%" />
-  <img src="images/fault.png" alt="Failure & recovery" width="48%" />
+  <img src="images/crash.png" alt="Failure & recovery" width="48%" />
 </p>
 
 ---
