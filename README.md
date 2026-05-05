@@ -6,7 +6,7 @@ An open-source, interactive visualization that uses three zoom levels — **data
 
 **When you send "hello" to a large language model, what actually happens on the hardware?**
 
-**[Open the live demo → auxten.github.io/llm-cluster-viz](https://auxten.github.io/llm-cluster-viz/)**
+**[Open the live demo → auxten.com/llm-cluster-viz](https://auxten.com/llm-cluster-viz/)**
 
 ---
 
