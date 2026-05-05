@@ -9,10 +9,12 @@ An open-source, interactive visualization that uses three zoom levels — **data
 **[Open the live demo → auxten.com/llm-cluster-viz](https://auxten.com/llm-cluster-viz/)**
 
 <p align="center">
-  <img src="images/GB200.png" alt="GB200 Superchip" width="24%" />
-  <img src="images/reduce.png" alt="Training all-reduce" width="24%" />
-  <img src="images/inference.png" alt="Inference lifecycle" width="24%" />
-  <img src="images/fault.png" alt="Failure & recovery" width="24%" />
+  <img src="images/GB200.png" alt="GB200 Superchip" width="48%" />
+  <img src="images/reduce.png" alt="Training all-reduce" width="48%" />
+</p>
+<p align="center">
+  <img src="images/inference.png" alt="Inference lifecycle" width="48%" />
+  <img src="images/fault.png" alt="Failure & recovery" width="48%" />
 </p>
 
 ---
