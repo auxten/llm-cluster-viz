@@ -1,0 +1,117 @@
+@import 'tailwindcss';
+@import 'katex/dist/katex.min.css';
+
+@theme {
+  --color-bg: #1a2030;
+  --color-bg-soft: #232a3c;
+  --color-panel: rgba(36, 44, 60, 0.92);
+  --color-panel-hi: rgba(48, 58, 78, 0.96);
+  --color-stroke: rgba(255, 255, 255, 0.18);
+  --color-stroke-hi: rgba(255, 255, 255, 0.32);
+  --color-fg: #f5f7fb;
+  --color-fg-soft: #d2d8e4;
+  --color-fg-mute: #a8b2c4;
+  --color-accent: #a4ee27;
+  --color-accent-hi: #c8ff5a;
+  --color-nvlink: #a4ee27;
+  --color-ib: #6cb8ff;
+  --color-coolant-cold: #6cb8ff;
+  --color-coolant-hot: #ff7a7a;
+  --color-token: #ffd966;
+  --color-warn: #ffc56b;
+  --color-error: #ff7a7a;
+  --font-sans:
+    'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  --font-mono:
+    'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior: none;
+}
+
+body {
+  background:
+    radial-gradient(
+      ellipse at top,
+      rgba(164, 238, 39, 0.14) 0%,
+      transparent 55%
+    ),
+    radial-gradient(
+      ellipse at bottom right,
+      rgba(108, 184, 255, 0.12) 0%,
+      transparent 60%
+    ),
+    var(--color-bg);
+}
+
+::selection {
+  background: rgba(164, 238, 39, 0.45);
+  color: #0a0e16;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+.panel {
+  background: var(--color-panel);
+  backdrop-filter: blur(16px) saturate(150%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  border: 1px solid var(--color-stroke);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+}
+
+.glow-nvlink {
+  box-shadow:
+    0 0 14px rgba(164, 238, 39, 0.6),
+    0 0 38px rgba(164, 238, 39, 0.28);
+}
+
+.glow-ib {
+  box-shadow:
+    0 0 14px rgba(108, 184, 255, 0.6),
+    0 0 38px rgba(108, 184, 255, 0.28);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.scene-label {
+  color: var(--color-fg);
+  font-size: 10.5px;
+  font-weight: 500;
+  white-space: nowrap;
+  padding: 2px 7px;
+  border-radius: 5px;
+  background: rgba(20, 26, 40, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.scene-label.scene-label-accent {
+  color: var(--color-accent);
+  border-color: rgba(164, 238, 39, 0.4);
+}
+
+.scene-label.scene-label-token {
+  color: var(--color-token);
+  border-color: rgba(255, 217, 102, 0.45);
+}
