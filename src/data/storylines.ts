@@ -1,5 +1,5 @@
 /**
- * Storyline 元数据：4 幕 11 章。
+ * Storyline 元数据：4 幕 10 章。
  *
  * i18n 说明：
  *   - title / caption / oneLiner / subtitle 等字段保存的是 **翻译 key**，不是字面文本。
@@ -126,29 +126,10 @@ export const storylines: Storyline[] = [
     ],
   },
   {
-    id: 'p2_nvl72_anatomy',
-    chapterKey: 'p2',
-    order: 2,
-    actOrder: 2,
-    act: 'prologue',
-    title: 'sl.p2.title',
-    layer: 'rack',
-    oneLiner: 'sl.p2.oneLiner',
-    autoplay: true,
-    defaultStepSec: 7,
-    steps: [
-      { id: 'zoom_in', ...k('p2', 'zoom_in') },
-      { id: 'three_sections', ...k('p2', 'three_sections') },
-      { id: 'backplane', ...k('p2', 'backplane') },
-      { id: 'cooling', ...k('p2', 'cooling') },
-      { id: 'aggregate', ...k('p2', 'aggregate'), durationSec: 9 },
-    ],
-  },
-  {
     id: 'p3_gb200_superchip',
     chapterKey: 'p3',
-    order: 3,
-    actOrder: 3,
+    order: 2,
+    actOrder: 2,
     act: 'prologue',
     title: 'sl.p3.title',
     layer: 'chip',
@@ -168,7 +149,7 @@ export const storylines: Storyline[] = [
   {
     id: 't1_training_iter',
     chapterKey: 't1',
-    order: 4,
+    order: 3,
     actOrder: 1,
     act: 'training',
     title: 'sl.t1.title',
@@ -269,7 +250,7 @@ export const storylines: Storyline[] = [
   {
     id: 't2_pipeline_bubble',
     chapterKey: 't2',
-    order: 5,
+    order: 4,
     actOrder: 2,
     act: 'training',
     title: 'sl.t2.title',
@@ -308,7 +289,7 @@ export const storylines: Storyline[] = [
   {
     id: 't3_moe_all_to_all',
     chapterKey: 't3',
-    order: 6,
+    order: 5,
     actOrder: 3,
     act: 'training',
     title: 'sl.t3.title',
@@ -352,7 +333,7 @@ export const storylines: Storyline[] = [
   {
     id: 'i1_inference_lifecycle',
     chapterKey: 'i1',
-    order: 7,
+    order: 6,
     actOrder: 1,
     act: 'inference',
     title: 'sl.i1.title',
@@ -406,7 +387,7 @@ export const storylines: Storyline[] = [
   {
     id: 'i2_prefill_internals',
     chapterKey: 'i2',
-    order: 8,
+    order: 7,
     actOrder: 2,
     act: 'inference',
     title: 'sl.i2.title',
@@ -443,7 +424,7 @@ export const storylines: Storyline[] = [
   {
     id: 'i3_decode_continuous_batching',
     chapterKey: 'i3',
-    order: 9,
+    order: 8,
     actOrder: 3,
     act: 'inference',
     title: 'sl.i3.title',
@@ -492,7 +473,7 @@ export const storylines: Storyline[] = [
   {
     id: 'i4_kv_cache_budget',
     chapterKey: 'i4',
-    order: 10,
+    order: 9,
     actOrder: 4,
     act: 'inference',
     title: 'sl.i4.title',
@@ -531,7 +512,7 @@ export const storylines: Storyline[] = [
   {
     id: 'r1_failure_recovery',
     chapterKey: 'r1',
-    order: 11,
+    order: 10,
     actOrder: 1,
     act: 'reality',
     title: 'sl.r1.title',

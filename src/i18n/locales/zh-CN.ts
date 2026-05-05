@@ -98,21 +98,6 @@ const dict: Dict = {
   'sl.p1.step.contrast.title': '40× 的差距',
   'sl.p1.step.contrast.caption': '同一 rack 内 130 TB/s NVLink，rack 之间慢 40 倍',
 
-  // ========== Storylines · P2 ==========
-  'sl.p2.title': 'NVL72 解剖',
-  'sl.p2.oneLiner': '18 compute + 9 NVSwitch + 5000 根 NVLink 铜缆 + 液冷',
-  'sl.p2.step.zoom_in.title': '走近一个机柜',
-  'sl.p2.step.zoom_in.caption': '从远景平滑过渡到单个 NVL72 正面',
-  'sl.p2.step.three_sections.title': '三段对称排布',
-  'sl.p2.step.three_sections.caption': '上 9 compute、中 9 NVSwitch、下 9 compute。共 27 trays，72 颗 GPU',
-  'sl.p2.step.backplane.title': '5,000 根铜缆',
-  'sl.p2.step.backplane.caption':
-    '机柜背面：NVLink cable backplane 把每颗 GPU 连到中部 NVSwitch，约 3 km 铜，50 kg',
-  'sl.p2.step.cooling.title': '液冷',
-  'sl.p2.step.cooling.caption': '满载 ~120 kW，必须液冷。蓝色冷端进、红色热端出',
-  'sl.p2.step.aggregate.title': '一个 130 TB/s 的巨型 GPU',
-  'sl.p2.step.aggregate.caption': '72 颗 GPU 在 NVLink 上像一颗整 GPU：scale-up 域聚合带宽 130 TB/s',
-
   // ========== Storylines · P3 ==========
   'sl.p3.title': 'GB200 Superchip',
   'sl.p3.oneLiner': '1 Grace + 2 B200 + 8 HBM3e stack，超芯片板的程序化解剖',
@@ -447,30 +432,6 @@ const dict: Dict = {
   'p1.establish.unitRacks': 'racks',
   'p1.establish.gpus': 'Blackwell GPU',
   'p1.establish.power': '满载功率',
-
-  // ========== P2 overlay ==========
-  'p2.aggregate.label': 'Scale-up domain · 130 TB/s',
-  'p2.aggregate.banner': '1× NVL72 ≡ 1 GPU',
-  'p2.aggregate.note': '72 颗 GPU 在 NVLink 上像一颗整 GPU。这是 NVL72 这个尺寸存在的理由。',
-  'p2.zoom_in.title': '走近一个机柜',
-  'p2.zoom_in.model': '机型',
-  'p2.zoom_in.height': '高度',
-  'p2.zoom_in.power': '功率',
-  'p2.three_sections.title': '三段对称排布',
-  'p2.three_sections.top': '上',
-  'p2.three_sections.mid': '中',
-  'p2.three_sections.bot': '下',
-  'p2.backplane.title': '5,000 根 NVLink 铜缆',
-  'p2.backplane.totalLength': '总长',
-  'p2.backplane.weight': '重量',
-  'p2.backplane.position': '位置',
-  'p2.backplane.posValue': '机柜背面',
-  'p2.cooling.title': '液冷',
-  'p2.cooling.cold': '冷端',
-  'p2.cooling.coldValue': '蓝 · 入水',
-  'p2.cooling.hot': '热端',
-  'p2.cooling.hotValue': '红 · 出水',
-  'p2.cooling.power': '功率',
 
   // ========== P3 overlay ==========
   'p3.tag.grace': 'Grace · 72 ARM Neoverse-V2',

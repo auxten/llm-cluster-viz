@@ -31,14 +31,13 @@ By the end you'll have a gut-level "oh, so *that's* what it looks like" feeling 
 
 ## What you'll see
 
-The tour is **4 acts, 11 chapters** — a short documentary. Each chapter is 30 seconds to 2 minutes. Watch front to back, or jump around.
+The tour is **4 acts, 10 chapters** — a short documentary. Each chapter is 30 seconds to 2 minutes. Watch front to back, or jump around.
 
 **Act 0 · Prologue — a tour of the hardware**
 Zoom from a wide shot of the datacenter all the way down to a single HBM stack.
 
 - P1 · Datacenter overview — 4 NVL72 racks, 288 Blackwell GPUs
-- P2 · NVL72 anatomy — 5,000 copper cables, 9 NVSwitch trays, 120 kW of liquid cooling
-- P3 · GB200 Superchip — 1 Grace CPU + 2 B200 GPUs + 8 HBM3e stacks
+- P2 · GB200 Superchip — 1 Grace CPU + 2 B200 GPUs + 8 HBM3e stacks
 
 **Act 1 · Training — how a model actually gets trained**
 One full training iteration, from input batch to weight update.

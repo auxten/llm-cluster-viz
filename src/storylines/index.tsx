@@ -4,7 +4,6 @@ import { StorylineS3 } from './s3_moe_all_to_all'
 import { StorylineS6 } from './s6_pipeline_bubble'
 import { StorylineS7 } from './s7_node_failure'
 import { StorylineP1 } from './p1_datacenter_overview'
-import { StorylineP2 } from './p2_nvl72_anatomy'
 import { StorylineP3 } from './p3_gb200_superchip'
 import { StorylineT1 } from './t1_training_iter'
 import { StorylineI1 } from './i1_inference_lifecycle'
@@ -15,9 +14,8 @@ import { StorylineI3 } from './i3_decode_continuous_batching'
  * 在每一层场景中调用 <StorylineLayer layer="rack"/> 来叠加当前 storyline 在该层的内容。
  * 每个 storyline 只在 storyStore.layer === 自己的 layer 时显示。
  *
- * 11-storyline 架构（v2，过程为主线，机制穿插）：
+ * 10-storyline 架构（v2，过程为主线，机制穿插）：
  *   p1_datacenter_overview         → StorylineP1 (datacenter)
- *   p2_nvl72_anatomy               → StorylineP2 (rack)
  *   p3_gb200_superchip             → StorylineP3 (chip)
  *   t1_training_iter               → StorylineT1 (datacenter, 主线)
  *   t2_pipeline_bubble             → StorylineS6 (datacenter, 放大)
@@ -40,8 +38,6 @@ export function StorylineLayer({ layer }: { layer: LayerId }) {
   switch (storyId) {
     case 'p1_datacenter_overview':
       return layer === 'datacenter' ? <StorylineP1 /> : null
-    case 'p2_nvl72_anatomy':
-      return layer === 'rack' ? <StorylineP2 /> : null
     case 'p3_gb200_superchip':
       return layer === 'chip' ? <StorylineP3 /> : null
 

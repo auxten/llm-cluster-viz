@@ -93,22 +93,6 @@ const dict: Dict = {
   'sl.p1.step.contrast.title': 'Diferencia de 40×',
   'sl.p1.step.contrast.caption': 'NVLink 130 TB/s dentro del rack, 40× más lento entre racks',
 
-  'sl.p2.title': 'Anatomía NVL72',
-  'sl.p2.oneLiner': '18 computo + 9 NVSwitch + 5,000 cables NVLink + refrigeración líquida',
-  'sl.p2.step.zoom_in.title': 'Acercarse a un rack',
-  'sl.p2.step.zoom_in.caption': 'Transición suave del plano general al frente del NVL72',
-  'sl.p2.step.three_sections.title': 'Tres secciones simétricas',
-  'sl.p2.step.three_sections.caption':
-    '9 cómputo arriba, 9 NVSwitch en medio, 9 cómputo abajo. 27 bandejas, 72 GPU.',
-  'sl.p2.step.backplane.title': '5,000 cables de cobre',
-  'sl.p2.step.backplane.caption':
-    'Backplane: cables NVLink conectan cada GPU a los NVSwitch centrales. ~3 km de cobre, 50 kg.',
-  'sl.p2.step.cooling.title': 'Refrigeración líquida',
-  'sl.p2.step.cooling.caption': '~120 kW a plena carga requiere líquido: azul entrada, rojo salida',
-  'sl.p2.step.aggregate.title': 'Una mega-GPU de 130 TB/s',
-  'sl.p2.step.aggregate.caption':
-    '72 GPU actúan como una sola sobre NVLink: ancho de banda agregado de escala vertical 130 TB/s',
-
   'sl.p3.title': 'GB200 Superchip',
   'sl.p3.oneLiner': '1 Grace + 2 B200 + 8 pilas HBM3e, disección procedimental',
   'sl.p3.step.zoom_to_board.title': 'Una placa superchip',
@@ -441,30 +425,6 @@ const dict: Dict = {
   'p1.establish.unitRacks': 'racks',
   'p1.establish.gpus': 'GPU Blackwell',
   'p1.establish.power': 'Potencia a plena carga',
-
-  'p2.aggregate.label': 'Dominio escala vertical · 130 TB/s',
-  'p2.aggregate.banner': '1× NVL72 ≡ 1 GPU',
-  'p2.aggregate.note':
-    '72 GPU se comportan como una sola sobre NVLink. Por eso existe NVL72 en este tamaño.',
-  'p2.zoom_in.title': 'Acercarse a un rack',
-  'p2.zoom_in.model': 'Modelo',
-  'p2.zoom_in.height': 'Altura',
-  'p2.zoom_in.power': 'Potencia',
-  'p2.three_sections.title': 'Tres secciones simétricas',
-  'p2.three_sections.top': 'Arriba',
-  'p2.three_sections.mid': 'Medio',
-  'p2.three_sections.bot': 'Abajo',
-  'p2.backplane.title': '5,000 cables de cobre NVLink',
-  'p2.backplane.totalLength': 'Longitud total',
-  'p2.backplane.weight': 'Peso',
-  'p2.backplane.position': 'Ubicación',
-  'p2.backplane.posValue': 'Parte trasera del rack',
-  'p2.cooling.title': 'Refrigeración líquida',
-  'p2.cooling.cold': 'Frío',
-  'p2.cooling.coldValue': 'Azul · entrada',
-  'p2.cooling.hot': 'Caliente',
-  'p2.cooling.hotValue': 'Rojo · salida',
-  'p2.cooling.power': 'Potencia',
 
   'p3.tag.grace': 'Grace · 72 ARM Neoverse-V2',
   'p3.tag.b200die': 'Die B200 · 2 reticles',

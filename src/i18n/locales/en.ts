@@ -93,22 +93,6 @@ const dict: Dict = {
   'sl.p1.step.contrast.title': 'A 40× gap',
   'sl.p1.step.contrast.caption': '130 TB/s NVLink inside a rack vs 40× slower between racks',
 
-  'sl.p2.title': 'NVL72 anatomy',
-  'sl.p2.oneLiner': '18 compute + 9 NVSwitch + 5,000 NVLink cables + liquid cooling',
-  'sl.p2.step.zoom_in.title': 'Approach a single rack',
-  'sl.p2.step.zoom_in.caption': 'Smooth transition from wide shot to NVL72 front',
-  'sl.p2.step.three_sections.title': 'Three symmetric sections',
-  'sl.p2.step.three_sections.caption':
-    'Top 9 compute, mid 9 NVSwitch, bottom 9 compute. 27 trays, 72 GPUs.',
-  'sl.p2.step.backplane.title': '5,000 copper cables',
-  'sl.p2.step.backplane.caption':
-    'Backplane: NVLink cables connect every GPU to mid NVSwitches. ~3 km copper, 50 kg.',
-  'sl.p2.step.cooling.title': 'Liquid cooling',
-  'sl.p2.step.cooling.caption': '~120 kW full load demands liquid: blue inlet, red outlet',
-  'sl.p2.step.aggregate.title': 'A 130 TB/s mega-GPU',
-  'sl.p2.step.aggregate.caption':
-    '72 GPUs look like one over NVLink: 130 TB/s aggregate scale-up bandwidth',
-
   'sl.p3.title': 'GB200 Superchip',
   'sl.p3.oneLiner': '1 Grace + 2 B200 + 8 HBM3e stacks, procedural anatomy',
   'sl.p3.step.zoom_to_board.title': 'A single superchip board',
@@ -444,30 +428,6 @@ const dict: Dict = {
   'p1.establish.unitRacks': 'racks',
   'p1.establish.gpus': 'Blackwell GPUs',
   'p1.establish.power': 'Full-load power',
-
-  'p2.aggregate.label': 'Scale-up domain · 130 TB/s',
-  'p2.aggregate.banner': '1× NVL72 ≡ 1 GPU',
-  'p2.aggregate.note':
-    '72 GPUs behave like one over NVLink. That is why NVL72 exists at this size.',
-  'p2.zoom_in.title': 'Approach a single rack',
-  'p2.zoom_in.model': 'Model',
-  'p2.zoom_in.height': 'Height',
-  'p2.zoom_in.power': 'Power',
-  'p2.three_sections.title': 'Three symmetric sections',
-  'p2.three_sections.top': 'Top',
-  'p2.three_sections.mid': 'Mid',
-  'p2.three_sections.bot': 'Bot',
-  'p2.backplane.title': '5,000 NVLink copper cables',
-  'p2.backplane.totalLength': 'Total length',
-  'p2.backplane.weight': 'Weight',
-  'p2.backplane.position': 'Location',
-  'p2.backplane.posValue': 'Rack rear',
-  'p2.cooling.title': 'Liquid cooling',
-  'p2.cooling.cold': 'Cold',
-  'p2.cooling.coldValue': 'Blue · inlet',
-  'p2.cooling.hot': 'Hot',
-  'p2.cooling.hotValue': 'Red · outlet',
-  'p2.cooling.power': 'Power',
 
   'p3.tag.grace': 'Grace · 72 ARM Neoverse-V2',
   'p3.tag.b200die': 'B200 die · 2 reticles',
